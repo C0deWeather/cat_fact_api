@@ -28,16 +28,16 @@ git clone https://github.com/C0deWeather/cat_fact_api.git
 cd cat_fact_api
 
 ```
-###2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 ```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
-###3. Install dependencies
+### 3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
-###4. Run the application
+### 4. Run the application
 ```
 python app.py
 ```
@@ -68,7 +68,7 @@ Example Response
 ```
 ---
 
-##🧱 Project Structure
+## 🧱 Project Structure
 
 ├── app.py
 ├── requirements.txt
@@ -78,7 +78,7 @@ Example Response
 
 ---
 
-##🚢 Deployment
+## 🚢 Deployment
 
 This project is deployed on Railway at:
 ```
