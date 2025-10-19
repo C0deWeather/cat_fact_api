@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 ### 4. Run the application
 ```
-python app.py
+python3 app.py
 ```
 By default, the app runs at http://localhost:5000/me
 
