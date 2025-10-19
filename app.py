@@ -5,6 +5,8 @@ import os
 import requests
 
 app = Flask(__name__)
+# do not sort JSON keys
+app.json.sort_keys = False
 
 user = {
         "email": "frankbright211@gmail.com",
