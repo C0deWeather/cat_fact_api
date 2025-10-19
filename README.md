@@ -46,7 +46,7 @@ By default, the app runs at http://localhost:5000/me
 
 ---
 
-##📡 API Endpoint
+## 📡 API Endpoint
 
 GET /me
 
@@ -69,12 +69,13 @@ Example Response
 ---
 
 ## 🧱 Project Structure
+```
 
 ├── app.py
 ├── requirements.txt
-├── Procfile
+|── Procfile
 └── README.md
-
+```
 
 ---
 
