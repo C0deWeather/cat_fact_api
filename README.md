@@ -23,36 +23,37 @@ A simple RESTful API built with **Flask** that returns a user profile alongside 
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/C0deWeather/cat_fact_api.git
 cd cat_fact_api
 
-2. Create and activate a virtual environment
-
+```
+###2. Create and activate a virtual environment
+```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-3. Install dependencies
-
+```
+###3. Install dependencies
+```
 pip install -r requirements.txt
-
-4. Run the application
-
+```
+###4. Run the application
+```
 python app.py
-
+```
 By default, the app runs at http://localhost:5000/me
 
 
 ---
 
-📡 API Endpoint
+##📡 API Endpoint
 
 GET /me
 
 Returns user profile information along with a random cat fact.
 
 Example Response
-
+```
 {
   "status": "success",
   "user": {
@@ -64,10 +65,10 @@ Example Response
   "timestamp": "2025-10-19T12:34:56.789Z"
 }
 
-
+```
 ---
 
-🧱 Project Structure
+##🧱 Project Structure
 
 ├── app.py
 ├── requirements.txt
@@ -77,7 +78,9 @@ Example Response
 
 ---
 
-🚢 Deployment
+##🚢 Deployment
 
 This project is deployed on Railway at:
+```
 👉 https://web-production-f3714.up.railway.app/me
+```
